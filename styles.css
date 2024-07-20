@@ -1,6 +1,3 @@
-body{
-    background-image: url(images/background.jpeg);
-}
 *{
     margin: 0;
     padding: 0;
@@ -10,7 +7,7 @@ body {
     font-family: 'poppines', sans-serif;
 }
 .navbar{
-    background-color: brown;
+    background-color: #FD6965;
     padding: 10px;
 }
 .container{
@@ -27,10 +24,10 @@ body {
     vertical-align: top;
 }
 .book-container h2{
-    color: brown;
+    color: #FD6965;
 }
 .book-container button{
-    background-color: brown;
+    background-color: #FD6965;
     color: white;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -41,7 +38,7 @@ body {
     margin-top: 10px;
 }
 .add-book{
-    background-color: brown;
+    background-color: #FD6965;
     color: white;
     font-size: 40px;
     border-radius: 100%;
@@ -66,7 +63,7 @@ body {
     display: none;
 }
 .popup-box{
-    background-color: brown;
+    background-color: #FD6965;
     width: 30%;
     padding: 40px;
     border-radius: 10px;
