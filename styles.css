@@ -1,0 +1,119 @@
+body{
+    background-image: url(images/background.jpeg);
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    font-family: 'poppines', sans-serif;
+}
+.navbar{
+    background-color: brown;
+    padding: 10px;
+}
+.container{
+     padding: 10px;
+}
+.book-container{
+    padding: 15px;
+    width: 15%; 
+    background-color:black;
+    border-radius: 10px;
+    color: white;
+    margin: 30px;
+    display: inline-block;
+    vertical-align: top;
+}
+.book-container h2{
+    color: brown;
+}
+.book-container button{
+    background-color: brown;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+}
+.add-book{
+    background-color: brown;
+    color: white;
+    font-size: 40px;
+    border-radius: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.overlay{
+    background-color: black;
+    opacity: 0.8;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
+.popup-box{
+    background-color: brown;
+    width: 30%;
+    padding: 40px;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    z-index: 2;
+    margin: 50px;
+    display: none;
+}
+.popup-box input{
+    background: transparent;
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    margin: 10px;
+    border-bottom: solid black 2px;
+}
+.popup-box textarea{
+    background: transparent;
+    width: 100%;
+    font-size: 20px;
+    margin: 10px;
+    border: solid black 2px;
+}
+.popup-box ::placeholder{
+    color: black;
+}
+.popup-box button{
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    margin: 5px;
+}
+.popup-box input:focus{
+    outline: none;
+}
+.popup-box textarea:focus{
+    outline: none;
+}
+.book-container h5{
+    color: cornflowerblue;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
